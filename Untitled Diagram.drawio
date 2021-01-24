@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T15:14:15.044Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="NTFB09y7GkbsDj40QEk_" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-24T15:44:32.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="LYQYgM6o9sDmeIVwYiRf" version="14.2.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -106,6 +106,50 @@
         </mxCell>
         <mxCell id="dyfLBD4CfKSnast9MrBf-61" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="1060" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TmElQwMeGg3f4atupuVD" name="Page-2">
+    <mxGraphModel dx="868" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Tgsh5Y7mpc-f0oYm9Xfc-0" />
+        <mxCell id="Tgsh5Y7mpc-f0oYm9Xfc-1" parent="Tgsh5Y7mpc-f0oYm9Xfc-0" />
+        <mxCell id="iLF46MBzodqIc-T_CfYy-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tgsh5Y7mpc-f0oYm9Xfc-1" source="iLF46MBzodqIc-T_CfYy-1" target="iLF46MBzodqIc-T_CfYy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iLF46MBzodqIc-T_CfYy-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Tgsh5Y7mpc-f0oYm9Xfc-1">
+          <mxGeometry x="140" y="150" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iLF46MBzodqIc-T_CfYy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tgsh5Y7mpc-f0oYm9Xfc-1" source="iLF46MBzodqIc-T_CfYy-3" target="iLF46MBzodqIc-T_CfYy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iLF46MBzodqIc-T_CfYy-3" value="Input amount of car price, down payment, loan period and interest rate" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="Tgsh5Y7mpc-f0oYm9Xfc-1">
+          <mxGeometry x="110" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iLF46MBzodqIc-T_CfYy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tgsh5Y7mpc-f0oYm9Xfc-1" source="iLF46MBzodqIc-T_CfYy-6" target="iLF46MBzodqIc-T_CfYy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iLF46MBzodqIc-T_CfYy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Tgsh5Y7mpc-f0oYm9Xfc-1" source="iLF46MBzodqIc-T_CfYy-6" target="iLF46MBzodqIc-T_CfYy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iLF46MBzodqIc-T_CfYy-6" value="Calculate the monthly repayment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Tgsh5Y7mpc-f0oYm9Xfc-1">
+          <mxGeometry x="110" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iLF46MBzodqIc-T_CfYy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Tgsh5Y7mpc-f0oYm9Xfc-1" source="iLF46MBzodqIc-T_CfYy-8" target="iLF46MBzodqIc-T_CfYy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iLF46MBzodqIc-T_CfYy-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Tgsh5Y7mpc-f0oYm9Xfc-1">
+          <mxGeometry x="280" y="300" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iLF46MBzodqIc-T_CfYy-9" value="Display detail of the monthly repayment" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="Tgsh5Y7mpc-f0oYm9Xfc-1">
+          <mxGeometry x="570" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iLF46MBzodqIc-T_CfYy-11" value="Display total of monthly repayment and the balance of each year" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="Tgsh5Y7mpc-f0oYm9Xfc-1">
+          <mxGeometry x="110" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iLF46MBzodqIc-T_CfYy-12" value="If amount of car price more than 30000, amount of down payment more than 0, amount of loan period between 5 and 9, amount of interest rate between 3 and 7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tgsh5Y7mpc-f0oYm9Xfc-1">
+          <mxGeometry x="332.5" y="335" width="145" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
